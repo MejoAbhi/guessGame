@@ -9,6 +9,7 @@ btn.addEventListener('click',()=>{
     if(write.value==''){
          note.innerHTML ="Please enter a Number"
          write.value=''
+         //hii
     }else{
 
         guessTheNumber()
