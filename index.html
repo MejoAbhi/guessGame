@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: #1d2228;
+            
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .title{
+            padding: 30px;
+        }
+        .guessTitle{
+            color: white;
+            font-size: xx-large;
+            font: bold;
+        }
+        .line{
+            height: 3px;
+            width: 195px;
+            background-color: #fb8122;
+        }
+        p{
+            color: #e1e2e2;
+        }
+        button{
+            background-color: #fb8122;
+            border: 2px solid orangered;
+            height: 30px;
+            width: 60px;
+            margin-top: 30px;
+            border-radius: 10px;
+            
+        }
+        input{
+            border-radius: 8px;
+            border: none;
+        }
+        p{
+           color: #e1e2e2; 
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+<div class="title">
+
+    <header class="guessTitle">Guessing Game</header>
+    <div class="line"></div>
+</div>
+      <input type="number" class="writehere" id="write" required/>
+      <button id="btn">Guess</button>
+      <p id="note"></p>
+      <p id="count"></p>
+  </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
